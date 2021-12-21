@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-         stage('Setup Python Virtual Environment'){
+         stage('Setup Python Virtual Environment TEST'){
             steps {
                 sh '''
                     chmod +x envsetup.sh
