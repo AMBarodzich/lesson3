@@ -2,7 +2,7 @@
 
 sudo cp -rf app.conf /etc/nginx/conf.d
 
-chmod 777 /var/lib/jenkins/workspace/PythonApplication
+chmod 777 /var/lib/jenkins/workspace/PythonApplication2
 
 sudo nginx -t
 
