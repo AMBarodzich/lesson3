@@ -4,8 +4,8 @@ After=network.target
 
 [Service]
 User=ec2-user
-WorkingDirectory=/var/lib/jenkins/workspace/pipeline
-ExecStart=/var/lib/jenkins/workspace/pipeline/env/bin/gunicorn --workers 3 --log-level debug --error-logfile /var/lib/jenkins/workspace/pipeline/error.log --bind unix:/var/lib/jenkins/workspace/pipeline/app.sock DjangoApp.wsgi:application
+WorkingDirectory=/var/lib/jenkins/workspace/PythonApplication
+ExecStart=/var/lib/jenkins/workspace/PythonApplication/env/bin/gunicorn --workers 3 --log-level debug --error-logfile /var/lib/jenkins/workspace/PythonApplication/error.log --bind unix:/var/lib/jenkins/workspace/PythonApplication/app.sock DjangoApp.wsgi:application
 
 [Install]
 WantedBy=multi-user.target
