@@ -3,7 +3,7 @@ Description=gunicorn daemon
 After=network.target
 
 [Service]
-User=ubuntu
+User=root
 WorkingDirectory=/var/lib/jenkins/workspace/PythonApplication2
 ExecStart=/var/lib/jenkins/workspace/PythonApplication2/env/bin/gunicorn --workers 3 --log-level debug --error-logfile /var/lib/jenkins/workspace/PythonApplication2/error.log --bind unix:/var/lib/jenkins/workspace/PythonApplication2/app.sock DjangoApp.wsgi:application
 
