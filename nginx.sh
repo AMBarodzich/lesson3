@@ -8,4 +8,4 @@ sudo nginx -t
 
 sudo service nginx restart
 
-sudo service status nginx
+sudo service nginx status
