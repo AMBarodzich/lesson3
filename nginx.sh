@@ -4,12 +4,10 @@ sudo cp -rf app.conf /etc/nginx/conf.d
 
 sudo usermod -a -G centos nginx
 
-chmod 777 /var/lib/jenkins/workspace/pipeline
+chmod 777 /var/lib/jenkins/workspace/PythonApplication
 
 sudo nginx -t
 
-sudo systemctl reload nginx
+sudo service nginx restart
 
-sudo systemctl restart nginx
-
-sudo systemctl status nginx
+sudo service status nginx
