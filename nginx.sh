@@ -9,4 +9,3 @@ sudo nginx -t
 sudo service nginx restart
 
 sudo service nginx status
-
