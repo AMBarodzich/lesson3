@@ -3,5 +3,3 @@ Django==2.1.*
 pytz==2020.1
 sqlparse==0.3.1
 gunicorn
-
-
