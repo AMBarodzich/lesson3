@@ -1,3 +1,5 @@
 Brest
 Gomel
 Minsk
+Vitebsk
+Grodno
