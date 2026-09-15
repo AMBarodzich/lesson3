@@ -3,5 +3,5 @@ Gomel
 Minsk
 Vitebsk
 Grodno
-belarus
-poland
+London
+Berlin
